@@ -1,4 +1,5 @@
-
+@extends('layouts.frontend')
+@section('content')
 <div class="content">
     <!--  section  -->
     <section class="parallax-section single-par" data-scrollax-parent="true">
@@ -98,3 +99,4 @@
         </div>
     </section>
 </div>
+@endsection

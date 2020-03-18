@@ -7,11 +7,11 @@
             <div class="user-profile-menu">
                 <h3>Main</h3>
                 <ul class="no-list-style">
-                    <li><a href="dashboard.html" class="user-profile-act"><i class="fal fa-chart-line"></i>Dashboard</a></li>
+                    <li><a href="{{url('dashboard')}}" class="user-profile-act"><i class="fal fa-chart-line"></i>Dashboard</a></li>
                     <!-- <li><a href="dashboard-feed.html"><i class="fal fa-rss"></i>Your Feed <span>7</span></a></li> -->
-                    <li><a href="dashboard-myprofile.html"><i class="fal fa-user-edit"></i> Edit profile</a></li>
+                    <li><a href="{{url('edit_profile')}}"><i class="fal fa-user-edit"></i> Edit profile</a></li>
                     <!-- <li><a href="dashboard-messages.html"><i class="fal fa-envelope"></i> Messages <span>3</span></a></li> -->
-                    <li><a href="dashboard-password.html"><i class="fal fa-key"></i>Change Password</a></li>
+                    <li><a href="{{url('change_password')}}"><i class="fal fa-key"></i>Change Password</a></li>
                 </ul>
             </div>
             <!-- user-profile-menu end-->
